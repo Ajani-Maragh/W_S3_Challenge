@@ -118,7 +118,7 @@
             return 'Bang!'
           } else {
             return 'Click!'
-          }
+          }zaz
         }
         reload(amount) {
           if (typeof amount !== 'number' || amount <= 0) {
@@ -201,6 +201,7 @@
       // 👉 HINT: if you are not feeling confident with map and filter, solve the problem with for loops,
       //      and with the piece of mind of all tests passing, refactor to use map/filter
         constructor(...antNames) {
+          
         this.ants = antNames.map( name => ({name: name, health: 100 }))
         }
         work() {
